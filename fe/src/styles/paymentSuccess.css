@@ -1,0 +1,96 @@
+/* Full Page */
+.payment-success-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #f5fff8, #e8fff0);
+    font-family: "Poppins", sans-serif;
+}
+
+/* Success Card */
+.success-card {
+    width: 380px;
+    background: #fff;
+    padding: 35px;
+    border-radius: 18px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    animation: pop 0.4s ease;
+}
+
+/* Success Icon */
+.success-icon {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    background: #22c55e;
+    color: white;
+    font-size: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Heading */
+.success-container h2 {
+    margin-top: 20px;
+    color: #1e293b;
+    font-size: 28px;
+}
+
+/* Message */
+.success-container p {
+    color: #64748b;
+    margin: 12px 0;
+    line-height: 1.6;
+}
+
+/* Payment Details */
+.payment-details {
+    background: #f8fafc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.payment-details p {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+    color: #334155;
+}
+
+/* Button */
+.home-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #3399cc; /* Razorpay Blue */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-btn:hover {
+    background: #1976d2;
+}
+
+/* Animation */
+@keyframes pop {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
